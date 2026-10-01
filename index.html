@@ -7,7 +7,6 @@
     <meta name="description" content="Café" />
     <meta name="keywords" content="café, coffe, shop" />
     <title>CoffeeShop</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,7 +37,7 @@
             <li>
               <a class="nav__link" href="#reservation">Reservar uma mesa</a>
             </li>
-            <li><a class="nav__link" href="">Contatos</a></li>
+            <li><a class="nav__link" href="#footer">Contatos</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -157,7 +156,7 @@
                 class="form__input"
               />
             </fieldset>
-            <button class="form__submit" type="submit">
+            <button class="form__button" type="submit">
               Reservar uma mesa
             </button>
             <label for="checkbox" class="form__checkbox-label">
@@ -167,7 +166,43 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <div class="footer__logo">
+            <img
+              src="images/logo_coffeeshop_light.svg"
+              alt="Logo da Triple Espresso(branco)"
+            />
+          </div>
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Mídia social</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Rodrigo Martins</p>
+      </footer>
     </div>
   </body>
 </html>

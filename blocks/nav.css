@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  margin-top: 30px;
+  margin-right: 80px;
+  column-gap: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: #2f80ed;
+  outline: none;
+}
+
+.nav__logo {
+  position: relative;
+  margin: 30px 0 0 80px;
+  width: 105px;
+  height: 39px;
+}
